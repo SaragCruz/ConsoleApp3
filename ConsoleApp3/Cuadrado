@@ -1,0 +1,25 @@
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+namespace cuadrado
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            float area = 0;
+            float Ladodelcuadrado = 0;
+            float perimetro = 0; 
+
+
+            Console.WriteLine("Escriba el lado del cuadrado");
+            Ladodelcuadrado = float.Parse(System.Console.ReadLine());
+            area = Ladodelcuadrado*Ladodelcuadrado;
+            perimetro = Ladodelcuadrado + Ladodelcuadrado + Ladodelcuadrado + Ladodelcuadrado; 
+            
+            Console.WriteLine("El area del cuadrado es {0}", area);
+            Console.WriteLine("El perimetro del cuadrado es {0}", perimetro);
+        }
+    }
+}
