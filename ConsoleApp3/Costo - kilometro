@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace area
+namespace costo
 {
     class program
     {
@@ -17,8 +17,8 @@ namespace area
             
             Console.WriteLine("escriba los kilometros recorridos");
             kilometros = float.Parse(System.Console.ReadLine());
-            resultado = ((COSTO) * kilometros);
-            Console.WriteLine("El resultado es ", resultado);
+            resultado = (COSTO * kilometros);
+            Console.WriteLine("El resultado es {0}", resultado);
 
         }
 
