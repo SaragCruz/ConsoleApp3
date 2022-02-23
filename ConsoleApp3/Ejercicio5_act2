@@ -1,6 +1,6 @@
 using System;
 
-public class fecha
+public class Ejercicio5
 {
     public static void Main()
     {
