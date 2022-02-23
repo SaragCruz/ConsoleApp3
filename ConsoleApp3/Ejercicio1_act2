@@ -3,9 +3,9 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace Caliificacion
+namespace Ejercicio1
 {
-    class program
+    class program 
     {
         static void Main(string[] args)
         {
